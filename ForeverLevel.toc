@@ -1,0 +1,13 @@
+
+## Interface: 16001
+## Title: Forever Level
+## Notes: Modular leveling tracker, reliable level history, XP analytics and journal.
+## Version: 1.4.0
+## SavedVariablesPerCharacter: ForeverLevelDB
+
+Core.lua
+Tracking.lua
+Tracker.lua
+Journal.lua
+Config.lua
+Commands.lua
