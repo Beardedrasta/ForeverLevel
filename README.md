@@ -4,8 +4,6 @@
 
 Forever Level combines an unobtrusive, Blizzard-inspired gold tracker with a detailed leveling journal. Keep an eye on your progress while you play, then open the journal when you want to examine your session, leveling pace, and history.
 
-> **Status:** v1.5.0 release preparation. The modular v1.4.0 addon must pass final in-game validation before a public release. XP attribution, active-time measures, and time-to-level projections are estimates.
-
 ## Features
 
 - **Four compact panels:** estimated kills to level, quests to level, level progress, and time to level.
@@ -38,27 +36,27 @@ The numbers are based on game events and observable changes in XP. Source attrib
 
 ## Main commands
 
-| Command | Action |
-|---|---|
-| `/fl config` | Open configuration |
-| `/fl journal` | Open journal |
-| `/fl sources` | Show XP source breakdown |
-| `/fl efficiency` | Show leveling efficiency |
-| `/fl zones` | Show zone performance |
-| `/fl history` | Show level-up history |
-| `/fl timing` | Report current level's recorded online time |
-| `/fl dock` / `/fl detach` | Switch docked/detached mode |
-| `/fl lock` / `/fl unlock` | Lock/unlock movement |
+| Command                               | Action                                                                |
+| ------------------------------------- | --------------------------------------------------------------------- |
+| `/fl config`                          | Open configuration                                                    |
+| `/fl journal`                         | Open journal                                                          |
+| `/fl sources`                         | Show XP source breakdown                                              |
+| `/fl efficiency`                      | Show leveling efficiency                                              |
+| `/fl zones`                           | Show zone performance                                                 |
+| `/fl history`                         | Show level-up history                                                 |
+| `/fl timing`                          | Report current level's recorded online time                           |
+| `/fl dock` / `/fl detach`             | Switch docked/detached mode                                           |
+| `/fl lock` / `/fl unlock`             | Lock/unlock movement                                                  |
 | `/fl hide quests` / `/fl show quests` | Hide/show an individual panel (also: `kills`, `level`, `time`, `all`) |
-| `/fl rate session\|recent\|active` | Choose time projection |
-| `/fl kills session\|recent` | Choose kill projection |
-| `/fl xpbar current\|both` | Choose vertical XP strip display |
-| `/fl border antique\|royal\|bright` | Change Blizzard-border gold tint |
-| `/fl activity 60\|90\|120` | Change estimated active-time window |
-| `/fl stats` | Print session summary |
-| `/fl reset` | Reset session only; preserve lifetime stats |
-| `/fl pos` | Print position diagnostics |
-| `/fl layout` | Reset tracker positions |
+| `/fl rate session\|recent\|active`    | Choose time projection                                                |
+| `/fl kills session\|recent`           | Choose kill projection                                                |
+| `/fl xpbar current\|both`             | Choose vertical XP strip display                                      |
+| `/fl border antique\|royal\|bright`   | Change Blizzard-border gold tint                                      |
+| `/fl activity 60\|90\|120`            | Change estimated active-time window                                   |
+| `/fl stats`                           | Print session summary                                                 |
+| `/fl reset`                           | Reset session only; preserve lifetime stats                           |
+| `/fl pos`                             | Print position diagnostics                                            |
+| `/fl layout`                          | Reset tracker positions                                               |
 
 ## Understanding the statistics
 
@@ -70,8 +68,6 @@ The numbers are based on game events and observable changes in XP. Source attrib
 - **Kill / quest / other XP** are approximate categories based on reported rewards; the addon may not identify every XP source.
 
 ## Screenshots
-
-Actual in-game screenshots will be added after the v1.5.0 visual validation. See [Screenshot guide](docs/SCREENSHOTS.md). Avoid using concept art or generated previews as screenshots of real gameplay.
 
 ## Troubleshooting
 
@@ -90,5 +86,3 @@ Source repository: `https://github.com/Beardedrasta/ForeverLevel` **(planned; cr
 For release notes see [CHANGELOG.md](CHANGELOG.md). To report a bug, include your addon version, client version, steps to reproduce, and any Lua error text.
 
 ## License
-
-A license has **not** been chosen yet. Add the license selected by the project owner before declaring a specific open-source license or reusing third-party code.
